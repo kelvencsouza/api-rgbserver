@@ -6,7 +6,7 @@ app.get('/hello', function () {
     return 'Hello World';
 });
 app.listen({
-    port: 3333
+    port: 3000
 }).then(function () {
     console.log('HTTP Server Running!');
 });
